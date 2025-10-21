@@ -1,7 +1,7 @@
 import '@styles/global.css';
 import { Children } from 'react';
 export const metadata = {
-    title : "Promtopia",
+    title : "Rootlayout",
     description : 'Discover & Share API Prompts'
 }
 
