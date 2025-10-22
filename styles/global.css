@@ -64,3 +64,15 @@
 .text_center {
   text-align: center;
 }
+.logo_text{
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.black_btn{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  padding-inline: 20px;
+  border-radius: 10px;
+}
