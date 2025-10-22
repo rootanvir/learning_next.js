@@ -5,22 +5,23 @@ import Nav from '@components/Nav'
 import Provider from '@components/Provider'
 
 export const metadata = {
-    title : "Rootlayout",
-    description : 'Discover & Share API Prompts'
+    title: "Rootlayout",
+    description: 'Discover & Share API Prompts'
 }
 
-const Rootlayout = ({children}) =>{
-    return(
+const Rootlayout = ({ children }) => {
+    return (
         <html lang="en">
             <body>
                 <div className='main'>
-                    <div className='gradient'/> 
+                    <div className='gradient' />
                 </div>
 
                 <main className='app'>
                     <Nav />
                     {children}
                 </main>
+
             </body>
         </html>
     )

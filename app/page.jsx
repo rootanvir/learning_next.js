@@ -10,7 +10,7 @@ const Home = () => {
                 <span className="orange_gradient"> AI-powered Prompts</span>
             </h1>
 
-            <p className="desc text-center mt-4 text-blue-700">
+            <p className="desc text-center mt-4">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus iste voluptates maxime,
                 dicta voluptatum recusandae labore odio rerum. Quas, odio?
             </p>
