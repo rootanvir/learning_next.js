@@ -1,5 +1,8 @@
 import '@styles/global.css';
 import { Children } from 'react';
+import Nav from '@components/Nav'
+import Provider from '@components/Provider'
+
 export const metadata = {
     title : "Rootlayout",
     description : 'Discover & Share API Prompts'
@@ -14,6 +17,7 @@ const Rootlayout = ({children}) =>{
                 </div>
 
                 <main className='app'>
+                    <Nav />
                     {children}
                 </main>
             </body>

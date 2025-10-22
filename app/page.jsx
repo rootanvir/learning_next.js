@@ -15,9 +15,6 @@ const Home = () => {
                 dicta voluptatum recusandae labore odio rerum. Quas, odio?
             </p>
             <Feed />
-            <div className="text-blue-800">
-                Tailwind is working!
-            </div>
 
         </section>
         
